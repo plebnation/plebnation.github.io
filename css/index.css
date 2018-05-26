@@ -219,6 +219,7 @@ body {
 
   ._input {
     position: relative;
+    font-family: Helvetica;
   }
 
   ._textarea {
@@ -232,8 +233,9 @@ body {
   ._button-3 {
     top: 0;
     left: 0.1388888888%;
-    width: 7.6388888888%;
+    width: 6.8055555555%;
     height: 48px;
+    border-width: 4px;
   }
 
   ._button-4 {
@@ -246,21 +248,27 @@ body {
     z-index: 2;
     margin-top: 0;
     margin-left: 0;
+    font-weight: 400;
   }
 
   ._input-2 {
     clear: both;
     z-index: 3;
+    font-weight: 400;
   }
 
   ._input-3 {
     z-index: 5;
     margin-top: 76px;
+    background-color: rgba(0, 0, 0, 0);
+    font-style: normal;
+    color: #ffffff;
   }
 
   ._input-4 {
     z-index: 12;
     margin-top: 0;
+    font-style: normal;
   }
 
   ._textarea-1 {
