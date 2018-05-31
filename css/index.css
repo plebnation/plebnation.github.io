@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 300 17px/1.38 Roboto;
+  color: rgb(255, 255, 255);
+}
+
+.background {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 79.9166666666%;
+  height: 1431px;
+  margin: 989px 0 0 10%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 968px;
+  background-image: url('../images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.intro {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 80%;
+  height: 941px;
+  margin: -1431px 0 0 10%;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 662px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  width: 232px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main {
+  display: block;
+  position: absolute;
+  top: 835px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 6.1666666666%;
+  height: 46px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-image: url('../images/Down-Arrow.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.main-title {
+  position: absolute;
+  top: 83px;
+  left: 23.4375%;
+  z-index: 3;
+  width: 53.0208333333%;
+  min-height: 109px;
+  font-size: 65px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.plebcode {
+  position: absolute;
+  top: 391px;
+  left: 23.4130859375%;
+  z-index: 6;
+  width: 53.1656901041%;
+  min-height: 343px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.plebcode p {
+  margin-bottom: 1em;
+}
+
+.text {
+  position: absolute;
+  top: 192px;
+  left: 33.9973958333%;
+  z-index: 4;
+  width: 32.0817057291%;
+  min-height: 28px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  position: absolute;
+  left: 32.998046875%;
+  width: 33.9990234375%;
+  min-height: 79px;
+  line-height: 2.68;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.title-1 {
+  top: 0;
+  z-index: 8;
+  font-size: 27px;
+  font-weight: 100;
+}
+
+.title-2 {
+  top: 286px;
+  z-index: 5;
+  font-size: 28px;
+}
