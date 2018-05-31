@@ -9,7 +9,7 @@
     <!--<![endif]-->
     <head>
         <!-- Title -->
-        <title>PlebHub</title>
+        <title>PlebName</title>
         <!-- Meta -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="">
@@ -66,14 +66,14 @@
                     <!-- Main Text -->
 					<div #code
                     <div class="col-md-12">
-                        <h2 class="text-center  article-title">PLEBHUB</h2>
-						<h4 class=" text-center article-title">The SWTORCentral Fanart...</h4>
+                        <h2 class="text-center  article-title">PlebName</h2>
+						<h4 class=" text-center article-title">The Pleb Name Generator...</h4>
                         <p>
-						<p class="text-center">This shouldn't need an introduction...
-						<p class="text-center">If it does however, this page is dedicated to the lit af artwork 
-						<p class="text-center"> created by The Pleb Master's loyal followers...
+						<p class="text-center">This page is for those unlucky souls who lack the ablity to come up with their own sick character name...
+						<p class="text-center">Simply click the button, and watch as the chaos begins...
+						<p class="text-center"> If you want to add a name, feel free to send it to: theplebnation@gmail.com
 						
-
+<div  class="background-black text-light">
                          </p>
                       
 						<img class="fadeInUp animate" alt="" src="assets/img/plebmaster.png" style="circular; display: block; margin-left: auto; margin-right: auto; margin-top: 40px;">
@@ -82,12 +82,65 @@
                 </div>
             </div>
         </div>
-        
+    <div  class="text-center background-black text-light">
+	<!-- The Generator script. You can move the script to an external file for better overview -->
+	<script type="text/javascript">	
+	/*  Online Name Generators v.1.0 script is  made by Niels Gamborg webmaster at online-generator.com.  
+	*    The script is  free (as in "free speech" and also as in "free beer") in anyway. Use it after you own likings.
+	*    Peace and love. :)
+	*/	
+		function generator(){
+			// Add your own words to the wordlist. Be carefull to obey the showed syntax
+			
+			var wordlist1 = ["Wipe","Gungan","One","Trooper","Pleb","Cool","Stupid","Drunk","Consular",
+							"Dark","Dank","Light","Golden","Silver","Inquisitor","Only","4K"];
+			
+			var wordlist2 = ["Gungan","Smuggler","Lama","Duck","Unicorn","Agent","Juggernaut",
+							"Mercenary","Central","Knee","Sam","Pleb"]
+			
+			// Random numbers are made 
+			var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+			var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+			var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2];			
+			
+			//alert(name); //Remove first to slashes to alert the name
+			
+			//If there's already a name it is removed  
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+			// A div element is created to show the generated name. The Name is added as a textnode. Textnode is added to the placeholder.
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}		
+	</script>
+	
+	<br>
+	<br>
+	<!-- Stylesheet. Change styles here. You can move the stylesheet to a extern file for better overview -->
+	
+		
+		<!-- Change the text to your needs -->
+		<h4>(Still in beta)</h4>
+		<h1>Pleb Name Generator</h1>
+		<p>Your Name Is: </p>
+		 <h3>The </h3>
+		
+		<!-- The generator result and button. Change text on the button by changing button value. Be carefull changing ID's in this part -->
+		<div id="generator" >
+			<div id="placeholder"></div>
+			<br>
+			<input  class= "background-dark" type="button" value="Make name" onclick="generator()" />		
+		</div>
+		
+		<!--  Change the text to your needs
                 </div>
             </div>
         </div>
         <!-- End Icons -->
-        <!-- Content -->
+        <!-- Content --
         <div id="content" class="background-black text-light">
             <div class="container">
                 <div class="row margin-vert-40">
@@ -113,8 +166,17 @@
             </div>
         </div>
         <!-- End Content -->
-     
-        
+     <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+        <br>
+		<br>
+		<br>
         <!-- === END CONTENT === -->
         <!-- === BEGIN FOOTER === -->
         <div id="base" class="background-dark text-light">
@@ -123,7 +185,7 @@
                     <!-- Disclaimer -->
                     <div class="col-md-6 margin-bottom-30">
                         <h3 class="text-center margin-bottom-10">Disclaimer</h3>
-                        <p>This website is created by TwentyØnePenguis, but all above pictures and information belongs to their respective owners.</p>
+                        <p>This website is created by TwentyØnePenguis, but all above pictures and information belongs to their respective owners.          </p>
                         <p>
                            
                     </div>
