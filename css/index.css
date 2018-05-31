@@ -4,6 +4,17 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.background {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 79.9166666666%;
+  height: 939px;
+  margin: 968px 0 0 10%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
+}
+
 .banner {
   position: fixed;
   top: 0;
@@ -15,17 +26,6 @@ body {
   background-size: auto auto;
   background-position: center center;
   overflow: hidden;
-}
-
-.element {
-  position: relative;
-  float: left;
-  z-index: 2;
-  width: 79.9166666666%;
-  height: 939px;
-  margin: 968px 0 0 10%;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
 }
 
 .main {
