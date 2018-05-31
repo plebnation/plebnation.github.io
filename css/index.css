@@ -10,8 +10,8 @@ body {
   clear: both;
   z-index: 2;
   width: 79.9166666666%;
-  height: 1916px;
-  margin: -941px 0 0 10%;
+  height: 2285px;
+  margin: -940px 0 0 10%;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
 }
@@ -29,13 +29,28 @@ body {
   overflow: hidden;
 }
 
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 11;
+  width: 797px;
+  height: auto;
+  margin: -1121px 0 0 16.79948%;
+  overflow: hidden;
+}
+
 .intro {
   position: relative;
   float: left;
   z-index: 9;
   width: 80%;
   height: 941px;
-  margin: 989px 0 0 9.9166666666%;
+  margin: 989px 0 0 9.91667%;
+}
+
+.intro .title {
+  width: 33.9990234375%;
 }
 
 .logo {
@@ -100,6 +115,18 @@ body {
   margin-bottom: 1em;
 }
 
+.subtitle {
+  position: relative;
+  float: left;
+  z-index: 12;
+  width: 39.25%;
+  min-height: 28px;
+  margin: -690px 0 0 30.33073%;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
 .text {
   float: left;
   clear: both;
@@ -113,21 +140,39 @@ body {
 
 .title {
   float: left;
-  width: 33.9990234375%;
   min-height: 79px;
-  margin-left: 33.1005899999%;
   line-height: 2.68;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
+.wrapper {
+  position: relative;
+  float: left;
+  z-index: 13;
+  width: 79.9166666666%;
+  height: 517px;
+  margin: -596px 0 0 10%;
+  overflow: hidden;
+}
+
 .title-1 {
+  margin-left: 33.1005899999%;
   font-size: 27px;
   font-weight: 100;
 }
 
 .title-2 {
   clear: both;
-  margin-top: 78px;
+  margin: 78px 0 0 33.1005859375%;
   font-size: 28px;
+}
+
+.title-3 {
+  position: relative;
+  clear: both;
+  z-index: 10;
+  width: 27.19921875%;
+  margin: -1208px 0 0 36.39974%;
+  font-size: 29px;
 }
