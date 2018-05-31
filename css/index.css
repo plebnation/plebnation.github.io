@@ -7,10 +7,11 @@ body {
 .background {
   position: relative;
   float: left;
+  clear: both;
   z-index: 2;
   width: 79.9166666666%;
-  height: 1431px;
-  margin: 989px 0 0 10%;
+  height: 1916px;
+  margin: -941px 0 0 10%;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
 }
@@ -31,17 +32,16 @@ body {
 .intro {
   position: relative;
   float: left;
-  clear: both;
   z-index: 9;
   width: 80%;
   height: 941px;
-  margin: -1431px 0 0 10%;
+  margin: 989px 0 0 9.9166666666%;
 }
 
 .logo {
   display: block;
   position: absolute;
-  top: 662px;
+  top: 648px;
   left: 0;
   right: 0;
   z-index: 7;
@@ -74,24 +74,24 @@ body {
 }
 
 .main-title {
-  position: absolute;
-  top: 83px;
-  left: 23.4375%;
-  z-index: 3;
+  float: left;
+  clear: both;
   width: 53.0208333333%;
   min-height: 109px;
+  margin-left: 23.60352%;
   font-size: 65px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .plebcode {
-  position: absolute;
-  top: 391px;
-  left: 23.4130859375%;
+  position: relative;
+  float: left;
+  clear: both;
   z-index: 6;
   width: 53.1656901041%;
   min-height: 343px;
+  margin: 10px 0 0 23.60352%;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -101,36 +101,33 @@ body {
 }
 
 .text {
-  position: absolute;
-  top: 192px;
-  left: 33.9973958333%;
-  z-index: 4;
+  float: left;
+  clear: both;
   width: 32.0817057291%;
   min-height: 28px;
+  margin-left: 34.10319%;
   font-size: 15px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .title {
-  position: absolute;
-  left: 32.998046875%;
+  float: left;
   width: 33.9990234375%;
   min-height: 79px;
+  margin-left: 33.1005899999%;
   line-height: 2.68;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .title-1 {
-  top: 0;
-  z-index: 8;
   font-size: 27px;
   font-weight: 100;
 }
 
 .title-2 {
-  top: 286px;
-  z-index: 5;
+  clear: both;
+  margin-top: 78px;
   font-size: 28px;
 }
